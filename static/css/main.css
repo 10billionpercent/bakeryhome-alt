@@ -11,7 +11,6 @@ body {
 .large {
     max-height: 600px;
     width: auto;
-    filter: drop-shadow(0 0 15px #02f232);
 }
 
 .medium {
@@ -23,7 +22,6 @@ body {
 .small {
     max-height: 300px;
     width: auto;
-    filter: drop-shadow(0 0 15px #02f232);
 }
 
 .navbar .navbar-brand {
@@ -40,4 +38,26 @@ body {
 .navbar-brand {
     font-size: 1.5rem !important;
     font-weight: bold;
+}
+
+.hero-image-container {
+    max-width: 100%; 
+}
+
+.hero-image-container img {
+    display: block;
+    height: auto;
+    max-width: 100%; 
+}
+
+.hero-overlay-title {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    width: 90%; 
+    margin: 0;
+    z-index: 10;
+    pointer-events: none; 
+    text-shadow: 2px 6px 9px var(--text-shadow);
+    font-size: clamp(1.5rem, 5vw, 4rem) !important;
 }
