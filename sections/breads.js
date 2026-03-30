@@ -35,8 +35,32 @@ class BreadSection extends HTMLElement {
         </p>
         </div>
         </div>
-
-        <div class="row g-4 g-md-5 align-items-center mb-5">
+       <div class="row g-4 g-md-5 align-items-center mb-5">
+    <h3 class="text-white text-start">
+        Some of our breads
+    </h3>
+    <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+        <my-image 
+            src="static/images/Anadama_bread_1.jpg" 
+            alt="Anadama"
+            variant="thumbnail-image">
+        </my-image>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+        <my-image 
+            src="static/images/Bean-jam-bunanpankatori-cityjapan.jpg" 
+            alt="Anpan"
+            variant="thumbnail-image">
+        </my-image>
+    </div>
+    <div class="col-lg-4 col-md-12 col-12 d-flex justify-content-center">
+        <my-image 
+            src="static/images/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.jpg" 
+            alt="Appam"
+            variant="thumbnail-image">
+        </my-image>
+    </div>
+</div>
 
     </div>
 </section>
