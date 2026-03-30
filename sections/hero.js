@@ -9,7 +9,7 @@ class HeroSection extends HTMLElement {
                     <my-image 
                         src="static/images/hero_image.png" 
                         alt="Delicious Sourdough">
-                        variant="hero"
+                        variant="hero-image"
                     </my-image>
                     
                     <h1 class="display-1 fw-bold text-white hero-overlay-title">

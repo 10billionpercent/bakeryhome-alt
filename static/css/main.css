@@ -2,24 +2,31 @@ body {
     background-color: black;
 }
 
-.hero {
-    max-height: 800px;
-    width: auto;
+my-image {
+    display: block; 
+    width: 100%;
+    max-width: 100%;
 }
 
-.large {
-    max-height: 600px;
-    width: auto;
+my-image img {
+    border-radius: 0.5rem;
+    width: 100%;
 }
 
-.medium {
-    max-height: 400px;
-    width: auto;
+.hero-image {
+    max-width: 800px;
 }
 
-.small {
-    max-height: 300px;
-    width: auto;
+.large-image {
+    max-width: 600px;
+}
+
+.medium-image {
+    max-width: 400px;
+}
+
+.small-image {
+    max-width: 300px;
 }
 
 .navbar .navbar-brand {
