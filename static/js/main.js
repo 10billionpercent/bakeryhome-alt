@@ -1,2 +1,2 @@
-import "/components/image.js"
-import "/sections/navbar.js"
+import "../../components/image.js"
+import "../../sections/navbar.js"
