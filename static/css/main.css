@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.hero {
+    max-height: 800px;
+    width: auto;
+    filter: drop-shadow(0 0 15px #02b6f2);
+}
+
+.large {
+    max-height: 600px;
+    width: auto;
+    filter: drop-shadow(0 0 15px #02f232);
+}
+
+.medium {
+    max-height: 400px;
+    width: auto;
+    filter: drop-shadow(0 0 15px #02f232);
+}
+
+.small {
+    max-height: 300px;
+    width: auto;
+    filter: drop-shadow(0 0 15px #02f232);
+}
+
+.navbar .navbar-brand {
+    padding: 0 !important;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;      
+    font-weight: 500;       
+    padding-left: 1rem !important; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
