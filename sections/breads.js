@@ -39,7 +39,7 @@ class BreadSection extends HTMLElement {
     <h3 class="text-white text-start">
         Some of our breads
     </h3>
-    <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+    <div class="col-lg-4 col-md-6 col-12 d-flex flex-column justify-content-center">
         <my-image 
             src="static/images/Anadama_bread_1.jpg" 
             alt="Anadama"
