@@ -51,6 +51,20 @@ my-image img {
     font-weight: bold;
 }
 
+.collapse:not(.show) {
+    display: none;
+}
+
+.collapse.show {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .hero-image-container {
     max-width: 100%; 
 }
@@ -76,3 +90,4 @@ my-image img {
     text-shadow: 2px 6px 9px var(--text-shadow);
     font-size: clamp(2rem, 5vw, 4rem) !important;
 }
+

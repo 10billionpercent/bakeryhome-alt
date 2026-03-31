@@ -4,17 +4,9 @@ class BreadSection extends HTMLElement {
 <section id="breads" class="text-center py-5">
     <div class="container">
         <div class="row g-4 g-md-5 align-items-center mb-5">
-            <div class="col-lg-6">
                 <h2 class="text-white text-start">
                   <b>Bread</b>&nbsp;is a&nbsp;<a href="https://en.wikipedia.org/wiki/Staple_food">staple food</a>&nbsp;prepared from a&nbsp;<a href="https://en.wikipedia.org/wiki/Dough">dough</a>&nbsp;of&nbsp;<a href="https://en.wikipedia.org/wiki/Flour">flour</a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/wiki/Water">water</a>, usually by&nbsp;<a href="https://en.wikipedia.org/wiki/Baking">baking</a>. Throughout recorded history it has been popular around the world and is one of the oldest artificial foods, having been of importance since the dawn of&nbsp;<a href="https://en.wikipedia.org/wiki/Agriculture#History">agriculture</a>.              
                 </h2>
-            </div>
-            <div class="col-lg-6">
-                <my-image 
-                    src="static/images/man_slicing_a_loaf_of_bread.gif" 
-                    alt="Man Slicing a Loaf of Bread"
-                    variant="medium-image">
-                </my-image>
             </div>
         </div>
         <div class="row g-4 g-md-5 align-items-center mb-5">
@@ -39,27 +31,27 @@ class BreadSection extends HTMLElement {
     <h3 class="text-white text-start">
         Some of our breads
     </h3>
-    <div class="col-lg-4 col-md-6 col-12 d-flex flex-column justify-content-center">
-        <my-image 
+    <my-card class="col-lg-4 col-md-6 col-12"
             src="static/images/Anadama_bread_1.jpg" 
             alt="Anadama"
-            variant="thumbnail-image">
-        </my-image>
-    </div>
-    <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
-        <my-image 
+            breadName="Anadama"
+            breadType="Yeast bread"
+            breadLocation="United States (New England)">
+    </my-card>
+    <my-card class="col-lg-4 col-md-6 col-12"
             src="static/images/Bean-jam-bunanpankatori-cityjapan.jpg" 
             alt="Anpan"
-            variant="thumbnail-image">
-        </my-image>
-    </div>
-    <div class="col-lg-4 col-md-12 col-12 d-flex justify-content-center">
-        <my-image 
-            src="static/images/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.jpg" 
+            breadName="Anpan"
+            breadType="Sweet bun"
+            breadLocation="Japan">
+    </my-card>
+    <my-card class="col-lg-4 col-md-6 col-12"
+            src="static/images/Anadama_bread_1.jpg" 
             alt="Appam"
-            variant="thumbnail-image">
-        </my-image>
-    </div>
+            breadName="Appam"
+            breadType="Various Types"
+            breadLocation="India (Kerala), Sri Lanka">
+    </my-card>
 </div>
 
     </div>
