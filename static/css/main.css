@@ -64,11 +64,15 @@ my-image img {
 .hero-overlay-title {
     position: absolute;
     top: -10%;
-    left: 0%;
-    width: 90%; 
+    
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%; 
+    text-align: center;
+    
     margin: 0;
     z-index: 10;
     pointer-events: none; 
     text-shadow: 2px 6px 9px var(--text-shadow);
-    font-size: clamp(1.5rem, 5vw, 4rem) !important;
+    font-size: clamp(2rem, 5vw, 4rem) !important;
 }
