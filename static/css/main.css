@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 my-image {
@@ -31,8 +32,11 @@ my-image img {
 
 .thumbnail-image {
     width: 100%;
-    height: 250px;
+    max-width: 280px; 
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+    border-radius: 0.5rem;
+    margin: 0 auto; 
 }
 
 .navbar .navbar-brand {

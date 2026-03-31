@@ -6,7 +6,7 @@ class MyCard extends HTMLElement {
         const breadType = this.getAttribute("breadType")
         const breadLocation = this.getAttribute("breadLocation")
         this.innerHTML = `
-    <div class="d-flex flex-column justify-content-center h-100">
+    <div class="d-flex flex-column justify-content-center align-items-center">
         <h4 class="text-white text-start">${breadName}</h4>
         <p class="text-white text-start"> <i class="bi bi-tags-fill"></i> ${breadType} </p>
         <my-image src="${src}" alt="${alt}" variant="thumbnail-image"></my-image>

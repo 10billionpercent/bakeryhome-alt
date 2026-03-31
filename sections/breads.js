@@ -27,7 +27,7 @@ class BreadSection extends HTMLElement {
         </p>
         </div>
         </div>
-       <div class="row g-4 g-md-5 align-items-center mb-5">
+       <div class="row g-4 g-md-5 align-items-center mb-5 px-4">
     <h3 class="text-white text-start">
         Some of our breads
     </h3>
@@ -46,12 +46,13 @@ class BreadSection extends HTMLElement {
             breadLocation="Japan">
     </my-card>
     <my-card class="col-lg-4 col-md-6 col-12"
-            src="static/images/Anadama_bread_1.jpg" 
+            src="static/images/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.jpg" 
             alt="Appam"
             breadName="Appam"
             breadType="Various Types"
             breadLocation="India (Kerala), Sri Lanka">
     </my-card>
+    <a href="https://en.wikipedia.org/wiki/List_of_breads"> View more of our breads </a>
 </div>
 
     </div>
