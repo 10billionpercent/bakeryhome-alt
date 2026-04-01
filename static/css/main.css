@@ -142,3 +142,28 @@ my-image img {
 #loc-name, #loc-desc {
     transition: opacity 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        flex: 0 0 90% !important;
+        width: 90% !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        flex: 0 0 30px !important;
+        height: 30px !important;
+    }
+
+    .carousel {
+        gap: 4px !important;
+    }
+
+    my-image {
+        width: 100% !important;
+    }
+    
+    .large-image, .medium-image {
+        max-width: 100% !important;
+    }
+}

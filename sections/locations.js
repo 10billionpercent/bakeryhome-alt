@@ -5,7 +5,7 @@ class LocationSection extends HTMLElement {
         {'name': 'Hof', 'desc': `Hof in Öræfi, is a cluster of farms in the municipality of Sveitarfélagið Hornafjörður in southeast Iceland, close to Vatnajökull glacier, and twenty-two kilometres south of Skaftafell in Vatnajökull National Park. It is on the Route 1 southwest of Höfn, in the narrow strip between the sea coast and the glacier.`, 
         'image': 'static/images/hof-cornell-university-filter.jpg'},
         {'name': 'Höfn', 'desc': `Höfn or Höfn í Hornafirði, is a fishing town in southeastern Iceland. It lies near Hornafjörður fjord.`, 'image': 'static/images/Hofn.jpg'},
-        {'name': 'Reykjavík', 'desc': `Reykjavík is the capital and largest city of Iceland. It is located on the southern shore of the Faxaflói bay in southwest Iceland and has a latitude of 64°08′ N, making it the world's northernmost capital of a sovereign state`, 'image': 'static/images/reykjavik-sverrir-thorolfsson.jpg'},
+        {'name': 'Reykjavík', 'desc': `Reykjavík is the capital and largest city of Iceland. It is located on the southern shore of the Faxaflói bay in southwest Iceland and has a latitude of 64°08′ N, making it the world's northernmost capital of a sovereign state.`, 'image': 'static/images/reykjavik-sverrir-thorolfsson.jpg'},
         {'name': 'Selfoss', 'desc': `Selfoss is a town in southern Iceland on the banks of the Ölfusá river. It is the seat of the municipality of Árborg.`, 'image': 'static/images/aevar-gudmundsson-selfoss.jpg'},
         {'name': 'Vík', 'desc': `Vík, known as Vík í Mýrdal in full, is the southernmost village in Iceland. It is located on the main ring road around the island, and is around 180 km (110 mi) southeast of Reykjavík by road.`, 'image': 'static/images/vik.jpg'}
         ]
@@ -15,7 +15,7 @@ class LocationSection extends HTMLElement {
 
         this.innerHTML = `
 <section id="locations-display" class="text-center py-5">
-    <div class="container-fluid px-5"> 
+    <div class="container-fluid px-2"> 
     <h2 class="text-white text-start"> Locations </h2>
     <div class="row g-4 align-items-start mb-5">
             <div class="col-lg-5">

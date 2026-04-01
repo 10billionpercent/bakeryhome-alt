@@ -1,7 +1,7 @@
 class BreadSection extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-<section id="breads" class="text-center px-5">
+<section id="breads" class="text-center px-2">
     <div class="container">
         <div class="row g-4 g-md-5 align-items-center mb-5">
                 <h2 class="text-white text-start">
