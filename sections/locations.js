@@ -10,11 +10,10 @@ class LocationSection extends HTMLElement {
         {'name': 'Vík', 'desc': `Vík, known as Vík í Mýrdal in full, is the southernmost village in Iceland. It is located on the main ring road around the island, and is around 180 km (110 mi) southeast of Reykjavík by road.`, 'image': 'static/images/vik.jpg'}
         ]
 
-        // Create a list of just the image paths for the carousel
         const imageList = JSON.stringify(locations.map(loc => loc.image))
 
         this.innerHTML = `
-<section id="locations-display" class="text-center py-5">
+<section id="locations" class="text-center py-5">
     <div class="container-fluid px-2"> 
     <h2 class="text-white text-start"> Locations </h2>
     <div class="row g-4 align-items-start mb-5">
