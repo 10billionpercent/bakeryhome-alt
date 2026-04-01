@@ -1,5 +1,5 @@
 import "./components/image.js"
-import "./components/card.js"
+import "./components/breadCard.js"
 import "./components/carousel.js"
 import "./sections/navbar.js"
 import "./sections/hero.js"

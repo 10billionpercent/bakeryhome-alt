@@ -31,27 +31,27 @@ class BreadSection extends HTMLElement {
     <h3 class="text-white text-start">
         Some of our breads
     </h3>
-    <my-card class="col-lg-4 col-md-6 col-12"
+    <bread-card class="col-lg-4 col-md-6 col-12"
             src="static/images/Anadama_bread_1.jpg" 
             alt="Anadama"
             breadName="Anadama"
             breadType="Yeast bread"
             breadLocation="United States (New England)">
-    </my-card>
-    <my-card class="col-lg-4 col-md-6 col-12"
+    </bread-card>
+    <bread-card class="col-lg-4 col-md-6 col-12"
             src="static/images/Bean-jam-bunanpankatori-cityjapan.jpg" 
             alt="Anpan"
             breadName="Anpan"
             breadType="Sweet bun"
             breadLocation="Japan">
-    </my-card>
-    <my-card class="col-lg-4 col-md-6 col-12"
+    </bread-card>
+    <bread-card class="col-lg-4 col-md-6 col-12"
             src="static/images/Appam_served_with_Coconut_Milk_in_Tamil_Nadu.jpg" 
             alt="Appam"
             breadName="Appam"
             breadType="Various Types"
             breadLocation="India (Kerala), Sri Lanka">
-    </my-card>
+    </bread-card>
     <a href="https://en.wikipedia.org/wiki/List_of_breads"> View more of our breads </a>
 </div>
 

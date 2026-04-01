@@ -1,4 +1,4 @@
-class MyCard extends HTMLElement {
+class BreadCard extends HTMLElement {
     connectedCallback() {
         const src = this.getAttribute("src")
         const alt = this.getAttribute("alt")
@@ -16,4 +16,4 @@ class MyCard extends HTMLElement {
     }
 }
 
-customElements.define("my-card", MyCard)
+customElements.define("bread-card", BreadCard)
