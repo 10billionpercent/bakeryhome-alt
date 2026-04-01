@@ -5,8 +5,8 @@ body {
 
 my-image {
     display: block; 
-    width: 100%;
-    max-width: 100%;
+    width: fit-content; 
+    margin: 0 auto;    
 }
 
 my-image img {
@@ -24,6 +24,7 @@ my-image img {
 
 .medium-image {
     max-width: 400px;
+    aspect-ratio: 3 / 2;
 }
 
 .small-image {
@@ -95,3 +96,39 @@ my-image img {
     font-size: clamp(2rem, 5vw, 4rem) !important;
 }
 
+.carousel {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    overflow: visible !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: static !important; 
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    opacity: 1 !important;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.carousel-item {
+    padding-left: 10px; 
+    padding-right: 10px; 
+    transition: transform 1.2s ease-in-out !important;
+    align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: white;     
+    width: 30px !important;
+    height: 30px !important;
+}
