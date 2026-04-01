@@ -134,6 +134,11 @@ my-image img {
     height: 30px !important;
 }
 
+#locations-display {
+    padding-top: 40px !important;   
+    padding-bottom: 40px !important;
+}
+
 #loc-name, #loc-desc {
     transition: opacity 0.3s ease-in-out;
 }

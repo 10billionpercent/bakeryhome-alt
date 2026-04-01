@@ -1,7 +1,7 @@
 class BreadSection extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-<section id="breads" class="text-center py-5">
+<section id="breads" class="text-center px-5">
     <div class="container">
         <div class="row g-4 g-md-5 align-items-center mb-5">
                 <h2 class="text-white text-start">
@@ -9,7 +9,7 @@ class BreadSection extends HTMLElement {
                 </h2>
             </div>
         </div>
-        <div class="row g-4 g-md-5 align-items-center mb-5">
+        <div class="row g-4 g-md-5 align-items-center mb-5 px-5">
         <div class="col-lg-6">
         <my-image 
                 src="static/images/mixed_variety_of_traditional_european_sourdough_and_rye_round_bread_loaves.jpg" 
@@ -27,7 +27,7 @@ class BreadSection extends HTMLElement {
         </p>
         </div>
         </div>
-       <div class="row g-4 g-md-5 align-items-center mb-5 px-4">
+       <div class="row g-4 g-md-5 align-items-center mb-5 px-5">
     <h3 class="text-white text-start">
         Some of our breads
     </h3>
