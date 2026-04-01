@@ -20,6 +20,7 @@ my-image img {
 
 .large-image {
     max-width: 600px;
+    aspect-ratio: 16 / 9;
 }
 
 .medium-image {
@@ -131,4 +132,8 @@ my-image img {
     color: white;     
     width: 30px !important;
     height: 30px !important;
+}
+
+#loc-name, #loc-desc {
+    transition: opacity 0.3s ease-in-out;
 }

@@ -1,17 +1,17 @@
 class MyCarousel extends HTMLElement {
     connectedCallback() {
-        const uniqueId = "carousel-" + Math.random().toString(36).substr(2, 9);
-        const imagesRaw = this.getAttribute("images");
-        const images = JSON.parse(imagesRaw || "[]");
+        const uniqueId = "carousel-" + Math.random().toString(36).substr(2, 9)
+        const imagesRaw = this.getAttribute("images")
+        const images = JSON.parse(imagesRaw || "[]")
 
-        if (images.length === 0) return;
+        if (images.length === 0) return
 
         const slides = images.map((img, index) => `
             <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                <my-image src="${img}" variant="medium-image" alt="Bakery Image">
+                <my-image src="${img}" variant="large-image" alt="Location Image">
                 </my-image>
             </div>
-        `).join('');
+        `).join('')
 
 this.innerHTML = `
     <div id="${uniqueId}" class="carousel slide px-2"> 
@@ -27,7 +27,7 @@ this.innerHTML = `
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
-`;
+`
 
         setTimeout(() => {
             const el = document.getElementById(uniqueId);
@@ -36,14 +36,14 @@ this.innerHTML = `
                 const carouselInstance = new window.bootstrap.Carousel(el, {
                     interval: false, // Static, just like you wanted
                     ride: false
-                });
+                })
 
                 // 2. Manually tell the buttons what to do
-                this.querySelector('.carousel-control-prev').onclick = () => carouselInstance.prev();
-                this.querySelector('.carousel-control-next').onclick = () => carouselInstance.next();
+                this.querySelector('.carousel-control-prev').onclick = () => carouselInstance.prev()
+                this.querySelector('.carousel-control-next').onclick = () => carouselInstance.next()
             }
-        }, 100);
+        }, 100)
     }
 }
 
-customElements.define("my-carousel", MyCarousel);
+customElements.define("my-carousel", MyCarousel)
