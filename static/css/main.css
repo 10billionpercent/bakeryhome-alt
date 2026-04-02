@@ -150,6 +150,10 @@ my-image img {
     transition: opacity 0.3s ease-in-out;
 }
 
+.text-white-85 {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
 @media (max-width: 768px) {
     .carousel-inner {
         flex: 0 0 90% !important;
