@@ -27,8 +27,6 @@ class LocationSection extends HTMLElement {
     </div>
 </section>
 `
-
-        // The "Brain": Listen for the slide change
         setTimeout(() => {
             const carouselEl = this.querySelector('.carousel')
             const nameEl = this.querySelector('#loc-name')
@@ -36,11 +34,9 @@ class LocationSection extends HTMLElement {
 
             if (carouselEl) {
                 carouselEl.addEventListener('slide.bs.carousel', (event) => {
-                    // event.to is the index of the next slide (0, 1, 2...)
                     const nextIndex = event.to
                     const data = locations[nextIndex]
 
-                    // Update the text with a quick fade effect
                     nameEl.style.opacity = 0
                     descEl.style.opacity = 0
                     

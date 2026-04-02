@@ -11,7 +11,7 @@ class MyNavbar extends HTMLElement {
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#breads">Breads</a></li>
                 <li class="nav-item"><a class="nav-link" href="#locations">Locations</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blogs">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
                 <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
