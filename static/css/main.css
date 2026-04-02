@@ -12,6 +12,9 @@ my-image {
 my-image img {
     border-radius: 0.5rem;
     width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: top;
 }
 
 .hero-image {
@@ -24,13 +27,16 @@ my-image img {
 }
 
 .medium-image {
-    max-width: 400px;
-    aspect-ratio: 3 / 2;
+    max-width: 450px;
+    min-width: 150px;
+    aspect-ratio: 2 / 1;
 }
 
 .small-image {
-    max-width: 300px;
-    aspect-ratio: 4 / 3;
+    max-width: 300px; 
+    min-width: 150px;
+    width: 100%;     
+    height: 100%;
 }
 
 .thumbnail-image {

@@ -1,6 +1,7 @@
 import "./components/image.js"
 import "./components/breadCard.js"
 import "./components/recipeCard.js"
+import "./components/blogCard.js"
 import "./components/carousel.js"
 import "./sections/navbar.js"
 import "./sections/hero.js"
