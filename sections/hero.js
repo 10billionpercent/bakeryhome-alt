@@ -16,10 +16,10 @@ class HeroSection extends HTMLElement {
                         Welcome to the Wagtail Bakery!
                     </h1>
                 </div>
-
                 <p class="lead text-white-50 mt-4 px-5">
                     A sample site designed to demonstrate the capabilities of the Wagtail Content Management System.
                 </p>
+                <cta-button text="Learn more about Wagtail" url="https://wagtail.org/"> </cta-button>
             </div>
         </section>
         `

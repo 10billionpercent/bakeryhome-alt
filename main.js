@@ -1,4 +1,5 @@
 import "./components/image.js"
+import "./components/ctaButton.js"
 import "./components/breadCard.js"
 import "./components/recipeCard.js"
 import "./components/blogCard.js"
