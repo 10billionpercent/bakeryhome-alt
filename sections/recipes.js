@@ -3,9 +3,9 @@ class RecipeSection extends HTMLElement {
         this.innerHTML = `
 <section id="recipes" class="text-center px-2">
     <div class="row g-4 g-md-5 align-items-center mb-5 px-2">
-    <h3 class="text-white text-start">
+    <h2 class="text-white text-start">
         Recipes
-    </h3>
+    </h2>
     <recipe-card class="col-lg-4 col-md-6 col-12"
             src="static/images/Hot_cross_buns_stacked.jpg" 
             alt="Hot Cross Buns"

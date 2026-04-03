@@ -3,9 +3,9 @@ class BlogSection extends HTMLElement {
         this.innerHTML = `
 <section id="blogs" class="text-center px-2">
 <div class="row g-4 g-md-5 align-items-center mb-5">
-    <h3 class="text-white text-start">
-        Blogs
-    </h3>
+    <h2 class="text-white text-start">
+        Blog
+    </h2>
     <h4 class="text-white text-center">
        Our Newest Blog
     </h4>
@@ -48,7 +48,7 @@ class BlogSection extends HTMLElement {
         src="static/images/Olandshvedebrod_6082070226.jpg">
     </blog-card>
 </div>
-<a href="https://static-wagtail-v4-2.netlify.app/blog/"> View more of our blogs </a>
+<a class="m-0" href="https://static-wagtail-v4-2.netlify.app/blog/"> View more of our blogs </a>
 </div>
 </section>
 `
