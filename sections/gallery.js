@@ -19,6 +19,7 @@ const breads = [
 `).join('')}
             </div>
         </div>
+            <a href="https://static-wagtail-v4-2.netlify.app/gallery/" rel="noopener noreferrer"> View more of our gallery </a>
     </section>`
 }
 }
