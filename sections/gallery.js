@@ -8,7 +8,7 @@ const breads = [
 ]
     
     this.innerHTML = `
-    <section id="gallery" class="py-5 d-flex align-items-center justify-content-center">
+    <section id="gallery" class="py-5">
         <div class="container-fluid px-4"> 
             <h2 class="text-white text-start mb-4"> Gallery </h2>
             <div class="row g-0 align-items-">${breads.map(bread => `
