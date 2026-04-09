@@ -48,26 +48,27 @@ my-image img {
     margin: 0 auto; 
 }
 
+#gallery my-image {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .square-gallery, .landscape-gallery {
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    align-self: flex-start;
 }
 
 .square-gallery {
     width: 100%;
     object-position: center;
     aspect-ratio: 1 / 1;
-    scale: 80%;
-    max-width: 500px;
 }
 
 .landscape-gallery {
     width: 100%;
     object-position: center;
     aspect-ratio: 1.5 / 1;
-    scale: 80%;
-    max-width: 800px;
 }
 
 .navbar .navbar-brand {
