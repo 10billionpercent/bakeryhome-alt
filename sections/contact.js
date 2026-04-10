@@ -2,7 +2,7 @@ class ContactSection extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <section id="contact" class="py-5 px-4">
-            <h2 class="text-white text-start mb-4"> Contact Us </h2>
+            <h2 class="text-white text-start mb-4 amarante"> Contact Us </h2>
             <form id="contactForm"> 
             <div class="row g-4 g-md-5 align-items-stretch px-2">
                 <div class="col-xl-6 d-xl-flex">

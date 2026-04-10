@@ -3,7 +3,7 @@ class RecipeSection extends HTMLElement {
         this.innerHTML = `
 <section id="recipes" class="text-center px-2">
     <div class="row g-4 g-md-5 align-items-center mb-5 px-2">
-    <h2 class="text-white text-start">
+    <h2 class="text-white text-start amarante">
         Recipes
     </h2>
     <recipe-card class="col-lg-4 col-md-6 col-12"

@@ -19,7 +19,7 @@ class BreadSection extends HTMLElement {
         </div>
         <div class="col-lg-6 text-white text-start">
         <p>Proportions of types of flour and other ingredients vary widely, as do modes of preparation. As a result, types, shapes, sizes, and textures of breads differ around the world. Bread may be&nbsp;<a href="https://en.wikipedia.org/wiki/Leaven">leavened</a>&nbsp;by processes such as reliance on naturally occurring&nbsp;<a href="https://en.wikipedia.org/wiki/Sourdough">sourdough</a>&nbsp;microbes, chemicals, industrially produced yeast, or high-pressure aeration. Some bread is cooked before it can leaven, including for traditional or religious reasons. Non-cereal ingredients such as fruits, nuts and fats may be included. Commercial bread commonly contains additives to improve flavor, texture, color, shelf life, and ease of manufacturing.</p>
-        <h3 class="text-white text-start">
+        <h3 class="text-white text-start amarante">
         Our most excellent bread
         </h3>
         <p> 
@@ -28,7 +28,7 @@ class BreadSection extends HTMLElement {
         </div>
         </div>
        <div class="row g-4 g-md-5 align-items-center mb-5 px-2">
-    <h3 class="text-white text-start">
+    <h3 class="text-white text-start amarante">
         Some of our breads
     </h3>
     <bread-card class="col-lg-4 col-md-6 col-12"

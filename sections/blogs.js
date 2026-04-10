@@ -3,7 +3,7 @@ class BlogSection extends HTMLElement {
         this.innerHTML = `
 <section id="blogs" class="text-center px-2">
 <div class="row g-4 g-md-5 align-items-center mb-5">
-    <h2 class="text-white text-start">
+    <h2 class="text-white text-start amarante">
         Blog
     </h2>
     <h4 class="text-white text-center">
