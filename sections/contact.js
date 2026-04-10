@@ -4,12 +4,11 @@ class ContactSection extends HTMLElement {
         <section id="contact" class="py-5 px-4">
             <h2 class="text-white text-start mb-4"> Contact Us </h2>
             <form id="contactForm"> 
-            <div class="row g-4 g-md-5 align-items-stretch mb-5 px-2">
-                <div class="col-xl-6 d-flex">
+            <div class="row g-4 g-md-5 align-items-stretch px-2">
+                <div class="col-xl-6 d-xl-flex">
                     <div class="contact-image-wrapper flex-grow-1">
                         <my-image src="static/images/Sourdough_rye_with_walnuts.jpg"
-                                  alt="Sourdough Rye with Walnuts" 
-                                  class="h-100">
+                                  alt="Sourdough Rye with Walnuts">
                         </my-image>
                         <p class="text-white text-start col-12 mt-4"> 
                     We'd love to hear from you! Drop us a line to let us know what you liked or didn't like about your recent store visit.
@@ -17,7 +16,7 @@ class ContactSection extends HTMLElement {
                     </div>
                 </div>
 
-                <div class="col-xl-6 d-flex flex-column align-items-start text-start">
+                <div class="col-xl-6 d-xl-flex flex-column align-items-start text-start">
                     <label for="subject" class="form-label text-white">
                         Subject <span class="text-danger">*</span>
                     </label>
