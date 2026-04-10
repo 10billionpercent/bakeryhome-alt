@@ -17,8 +17,7 @@ class GalleryCard extends HTMLElement {
             <my-image 
                 src="${src}" 
                 alt="${imageName}" 
-                variant="${size}-gallery"
-                class="flex-grow-1">
+                variant="${size}-gallery">
             </my-image>
 
             <h4 class="text-white text-start mt-2 small text-uppercase">

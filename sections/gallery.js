@@ -19,8 +19,7 @@ this.innerHTML = `
         <h2 class="text-white text-start mb-4">Gallery</h2>
 
         ${rows.map((row, index) => `
-            <div class="row g-4 align-items-start mb-4 px-4">
-
+            <div class="row g-4 align-items-stretch mb-4 px-4">
                 ${index % 2 === 0 ? `
                     <gallery-card 
                         src="${row[0].image}"

@@ -49,13 +49,12 @@ my-image img {
 }
 
 #gallery my-image {
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: auto;
 }
 
 .square-gallery, .landscape-gallery {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -68,7 +67,11 @@ my-image img {
 .landscape-gallery {
     width: 100%;
     object-position: center;
-    aspect-ratio: 1.5 / 1;
+    aspect-ratio: 2.05 / 1;
+}
+
+gallery-card {
+    height: 100%;
 }
 
 .navbar .navbar-brand {
