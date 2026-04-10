@@ -19,6 +19,9 @@ class HeroSection extends HTMLElement {
                 <p class="lead text-white-50 mt-4 px-5">
                     A sample site designed to demonstrate the capabilities of the Wagtail Content Management System.
                 </p>
+                <p class="text-white-50 small">
+                   An alternative look for the Bakery Demo home page by <a href="https://github.com/10billionpercent" target="_blank" class="text-white">@10billionpercent</a>. Styling in progress.
+                </p>
                 <cta-button text="Learn more about Wagtail" url="https://wagtail.org/"> </cta-button>
             </div>
         </section>

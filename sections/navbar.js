@@ -1,7 +1,7 @@
 class MyNavbar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
           <div class="container py-2 px-3">
             <a class="navbar-brand" href="#hero">The Wagtail Bakery</a>
             <button class="navbar-toggler" type="button">

@@ -239,3 +239,11 @@ gallery-card {
         max-width: 100% !important;
     }
 }
+
+@media (max-width: 992px) {
+    #gallery .container-fluid {
+        max-width: clamp(500px, 80vw, 840px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

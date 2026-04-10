@@ -17,7 +17,7 @@ class LocationSection extends HTMLElement {
     <div class="container-fluid px-2"> 
     <h2 class="text-white text-start"> Locations </h2>
     <div class="row g-4 align-items-start mb-5">
-            <div class="col-lg-5">
+            <div class="col-lg-5 px-3">
             <h3 id="loc-name" class="text-white text-start display-4">${locations[0].name}</h3>
                 <p id="loc-desc" class="text-white text-start lead">${locations[0].desc}</p>
             </div>

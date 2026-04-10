@@ -4,7 +4,7 @@ class GalleryCard extends HTMLElement {
         const imageName = this.getAttribute("imageName")
         const size = this.getAttribute("size")
 
-        const colClass = size === "square" ? "col-xl-4" : "col-xl-8"
+        const colClass = size === "square" ? "col-lg-4" : "col-lg-8"
 
         this.classList.add(
             ...colClass.split(' '),
