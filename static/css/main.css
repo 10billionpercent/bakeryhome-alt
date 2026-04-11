@@ -355,3 +355,10 @@ blog-card {
         margin-right: auto;
     }
 }
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        white-space: normal;
+        max-width: 70%;
+    }
+}
