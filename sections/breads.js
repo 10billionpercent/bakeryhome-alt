@@ -27,7 +27,7 @@ class BreadSection extends HTMLElement {
         </p>
         </div>
         </div>
-       <div class="row g-4 g-md-5 align-items-center px-2">
+       <div class="row g-4 g-md-5 align-items-center px-2 mt-2 ms-4">
     <h3 class="text-start poller-one ms-2">
         Some of our breads
     </h3>
