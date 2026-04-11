@@ -3,7 +3,7 @@ class MyNavbar extends HTMLElement {
         this.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
           <div class="container py-2 px-3">
-            <a class="navbar-brand amarante" href="#hero">The Wagtail Bakery</a>
+            <a class="navbar-brand poller-one" href="#hero">The Wagtail Bakery</a>
             <button class="navbar-toggler" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>

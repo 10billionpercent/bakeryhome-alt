@@ -20,7 +20,7 @@ class GalleryCard extends HTMLElement {
                 variant="${size}-gallery">
             </my-image>
 
-            <h4 class="text-white text-start mt-2 small text-uppercase">
+            <h4 class="text-white text-start mt-2">
                 ${imageName}
             </h4>
         `

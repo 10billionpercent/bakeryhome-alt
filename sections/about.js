@@ -4,7 +4,7 @@ class AboutSection extends HTMLElement {
     <section id="about" class="py-5">
         <div class="container-fluid px-4"> 
         <div class="row g-4 g-md-5 align-items-stretch mb-5 px-2">
-            <h2 class="text-white text-start mb-4 amarante"> About Us </h2>
+            <h2 class="text-white text-start mb-4 poller-one"> About Us </h2>
             <div class="row g-0 px-4">
             <div class="col-xl-6 d-flex flex-column">
             <h4 class="text-white text-start">

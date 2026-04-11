@@ -2,8 +2,8 @@ class BlogSection extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 <section id="blogs" class="text-center px-2">
-<div class="row g-4 g-md-5 align-items-center mb-5">
-    <h2 class="text-white text-start amarante">
+<div class="row g-4 g-md-5 align-items-center mb-5 px-4">
+    <h2 class="text-white text-start poller-one">
         Blog
     </h2>
     <h4 class="text-white text-center">

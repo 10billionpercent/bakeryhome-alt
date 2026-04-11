@@ -12,7 +12,7 @@ class HeroSection extends HTMLElement {
                         variant="hero-image"
                     </my-image>
                     
-                    <h1 class="display-1 fw-bold text-white hero-overlay-title amarante">
+                    <h1 class="display-1 fw-bold text-white hero-overlay-title poller-one">
                         Welcome to the Wagtail Bakery!
                     </h1>
                 </div>
