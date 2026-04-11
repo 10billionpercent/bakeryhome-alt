@@ -3,16 +3,16 @@ class AboutSection extends HTMLElement {
     this.innerHTML = `
     <section id="about" class="py-5">
         <div class="container-fluid px-4"> 
-        <div class="row g-4 g-md-5 align-items-stretch mb-5 px-2">
-            <h2 class="text-white text-start mb-4 poller-one"> About Us </h2>
+        <div class="row g-4 g-md-5 align-items-stretch px-2">
+            <h2 class="text-start mb-4 poller-one"> About Us </h2>
             <div class="row g-0 px-4">
             <div class="col-xl-6 d-flex flex-column">
-            <h4 class="text-white text-start">
+            <h4 class="text-start">
             Things to know about this demo site
             </h4>
-             <p class="text-white text-start"> If you've gotten this far, congratulations - you're running an instance of a killer content management system written for and on top of Django, <i>the framework for perfectionists with deadlines.</i></p>
-             <h5 class="text-white text-start">What does Wagtail get you that Django alone does not?</h5>
-             <ul class="text-white text-start">
+             <p class="text-start"> If you've gotten this far, congratulations - you're running an instance of a killer content management system written for and on top of Django, <i>the framework for perfectionists with deadlines.</i></p>
+             <h5 class="text-start">What does Wagtail get you that Django alone does not?</h5>
+             <ul class="text-start">
              <li>Focus on content creators/managers, rather than developers (but developer-friendly!)</li>
              <li>"Page-centric" content modeling</li>
              <li>Beautiful, modern, intuitive user interface optimized for content people</li>
@@ -34,8 +34,8 @@ class AboutSection extends HTMLElement {
             </div>
         </div>
         <div class="col-xl-6 d-flex flex-column">
-        <p class="text-white text-start"> If you're new to Wagtail, there are two primary paths to learning:</p>
-        <ul class="text-white text-start">
+        <p class="text-start"> If you're new to Wagtail, there are two primary paths to learning:</p>
+        <ul class="text-start">
         <li>The source code that powers this demo site</li>
         <li>The official <a href="https://docs.wagtail.org/en/stable/getting_started/index.html">tutorial</a></li>
         </ul>

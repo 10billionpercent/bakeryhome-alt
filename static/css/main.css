@@ -2,6 +2,16 @@ body {
     background-color: black;
     overflow-x: hidden;
     font-family: "SN Pro", sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    width: 100%;
+}
+
+a {
+    color: var(--bread-brown);
 }
 
 .poller-one {
@@ -79,15 +89,27 @@ gallery-card {
     height: 100%;
 }
 
+.navbar {
+    background-color: var(--bread-crust);
+    border-bottom: 1px solid var(--bread-white);
+}
+
+
 .navbar .navbar-brand {
     padding: 0 !important;
     letter-spacing: 1px;
+    color: var(--bread-white);
 }
 
 .navbar-nav .nav-link {
     font-size: 1.2rem;      
     font-weight: 500;       
     padding-left: 1rem !important; 
+    color: var(--bread-dough);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--bread-white);
 }
 
 .navbar-brand {
@@ -107,6 +129,11 @@ gallery-card {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+#hero {
+    background-color: var(--bread-gold);
+    color: var(--bread-dark);
 }
 
 .hero-image-container {
@@ -135,6 +162,26 @@ gallery-card {
     font-size: clamp(2rem, 5vw, 4rem) !important;
 }
 
+.btn-primary {
+    background-color: var(--bread-brown);
+    color: var(--bread-dough);
+    border: none;
+}
+
+#breads {
+    background-color: var(--bread-dough);
+    color: var(--bread-dark);
+}
+
+#locations {
+    background-color: var(--bread-dark);
+    color: var(--bread-white);
+}
+
+#locations h3 {
+    color: var(--bread-gold);
+}
+
 .carousel {
     display: flex !important;
     flex-direction: row !important;
@@ -154,8 +201,8 @@ gallery-card {
 }
 
 .carousel-inner {
-    overflow: hidden;
     border-radius: 0.5rem;
+    padding-bottom: 12px;
 }
 
 .carousel-item {
@@ -172,6 +219,12 @@ gallery-card {
     height: 30px !important;
 }
 
+.carousel-item my-image img {
+    box-shadow: 22px 35px 40px -12px var(--bread-gold);
+    border-radius: 0.5rem; 
+    transition: transform 0.3s ease;
+}
+
 #locations-display {
     padding-top: 40px !important;   
     padding-bottom: 40px !important;
@@ -185,17 +238,42 @@ gallery-card {
     color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.form-control {
-    background-color: #1a1a1a; 
-    border: 1px solid #333;
-    color: white;
+#blogs {
+    background-color: var(--bread-brown);
 }
 
-.form-control:focus {
-    background-color: #222;
-    color: white;
-    border-color: #666;
-    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.7); 
+blog-card {
+    color: var(--bread-dough);
+}
+
+#recipes {
+    background-color: var(--bread-dough);
+    color: var(--bread-dark);
+}
+
+#gallery {
+    background-color: var(--bread-dark);
+    color: var(--bread-gold);
+}
+
+#contact {
+    background-color: var(--bread-brown);
+    color: var(--bread-white);
+}
+.form-control, .form-select {
+    background-color: var(--bread-dark); 
+    border: 1px solid var(--bread-gold);
+    color: var(--bread-white);
+}
+
+.border-secondary {
+    border: 1px solid var(--bread-gold) !important;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: var(--bread-crust);
+    color: var(--bread-white);
+    border-color: var(--bread-dough);
 }
 
 .form-label {
@@ -204,6 +282,13 @@ gallery-card {
     text-align: left;
 }
 
+#contact cta-button button {
+    background-color: var(--bread-dark) !important;
+}
+
+.required {
+    color: var(--bread-white);
+}
 .contact-image-wrapper my-image {
     width: 100% !important; 
     height: auto !important;
@@ -217,6 +302,25 @@ gallery-card {
     object-fit: cover; 
     object-position: center;
     border-radius: 0.5rem;
+}
+
+#about {
+    background-color: var(--bread-gold);
+    color: var(--bread-dark);
+}
+
+#footer {
+    background-color: var(--bread-dark);
+    color: var(--bread-white);
+}
+
+#footer i {
+    color: var(--bread-gold);
+    font-size: 1.5rem;
+}
+
+#footer a {
+    color: var(--bread-gold);
 }
 
 @media (max-width: 768px) {

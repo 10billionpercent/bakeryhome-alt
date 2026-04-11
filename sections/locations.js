@@ -15,11 +15,11 @@ class LocationSection extends HTMLElement {
         this.innerHTML = `
 <section id="locations" class="text-center py-5">
     <div class="container-fluid px-4"> 
-    <h2 class="text-white text-start poller-one"> Locations </h2>
+    <h2 class="text-start poller-one"> Locations </h2>
     <div class="row g-4 align-items-start mb-5 px-2">
             <div class="col-lg-5 px-3">
-            <h3 id="loc-name" class="text-white text-start display-4">${locations[0].name}</h3>
-                <p id="loc-desc" class="text-white text-start lead">${locations[0].desc}</p>
+            <h3 id="loc-name" class="text-start display-4 fw-bold fst-italic">${locations[0].name}</h3>
+                <p id="loc-desc" class="text-start lead">${locations[0].desc}</p>
             </div>
             <div class="col-lg-7"> <my-carousel images='${imageList}'></my-carousel>
             </div>

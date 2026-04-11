@@ -3,13 +3,13 @@ class BreadSection extends HTMLElement {
         this.innerHTML = `
 <section id="breads" class="text-center px-2">
     <div class="container">
-        <div class="row g-4 g-md-5 align-items-center mb-5">
-                <h2 class="text-white text-start">
+        <div class="row g-4 g-md-5 align-items-center">
+                <h2 class="text-start">
                   <b>Bread</b>&nbsp;is a&nbsp;<a href="https://en.wikipedia.org/wiki/Staple_food">staple food</a>&nbsp;prepared from a&nbsp;<a href="https://en.wikipedia.org/wiki/Dough">dough</a>&nbsp;of&nbsp;<a href="https://en.wikipedia.org/wiki/Flour">flour</a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/wiki/Water">water</a>, usually by&nbsp;<a href="https://en.wikipedia.org/wiki/Baking">baking</a>. Throughout recorded history it has been popular around the world and is one of the oldest artificial foods, having been of importance since the dawn of&nbsp;<a href="https://en.wikipedia.org/wiki/Agriculture#History">agriculture</a>.              
                 </h2>
             </div>
         </div>
-        <div class="row g-4 g-md-5 align-items-center mb-5 px-2">
+        <div class="row g-4 g-md-5 align-items-center px-5">
         <div class="col-lg-6">
         <my-image 
                 src="static/images/mixed_variety_of_traditional_european_sourdough_and_rye_round_bread_loaves.jpg" 
@@ -17,9 +17,9 @@ class BreadSection extends HTMLElement {
                 variant="large-image">
         </my-image>
         </div>
-        <div class="col-lg-6 text-white text-start">
+        <div class="col-lg-6 text-start">
         <p>Proportions of types of flour and other ingredients vary widely, as do modes of preparation. As a result, types, shapes, sizes, and textures of breads differ around the world. Bread may be&nbsp;<a href="https://en.wikipedia.org/wiki/Leaven">leavened</a>&nbsp;by processes such as reliance on naturally occurring&nbsp;<a href="https://en.wikipedia.org/wiki/Sourdough">sourdough</a>&nbsp;microbes, chemicals, industrially produced yeast, or high-pressure aeration. Some bread is cooked before it can leaven, including for traditional or religious reasons. Non-cereal ingredients such as fruits, nuts and fats may be included. Commercial bread commonly contains additives to improve flavor, texture, color, shelf life, and ease of manufacturing.</p>
-        <h3 class="text-white text-start poller-one">
+        <h3 class="text-start poller-one">
         Our most excellent bread
         </h3>
         <p> 
@@ -27,8 +27,8 @@ class BreadSection extends HTMLElement {
         </p>
         </div>
         </div>
-       <div class="row g-4 g-md-5 align-items-center mb-5 px-2">
-    <h3 class="text-white text-start poller-one">
+       <div class="row g-4 g-md-5 align-items-center px-2">
+    <h3 class="text-start poller-one ms-2">
         Some of our breads
     </h3>
     <bread-card class="col-lg-4 col-md-6 col-12"
@@ -52,7 +52,7 @@ class BreadSection extends HTMLElement {
             breadType="Various Types"
             breadLocation="India (Kerala), Sri Lanka">
     </bread-card>
-    <a href="https://en.wikipedia.org/wiki/List_of_breads"> View more of our breads </a>
+    <a href="https://en.wikipedia.org/wiki/List_of_breads" class="mb-4"> View more of our breads </a>
 </div>
 
     </div>

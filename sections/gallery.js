@@ -14,9 +14,9 @@ for (let i = 0; i < breads.length; i += 2) {
 }
 
 this.innerHTML = `
-<section id="gallery" class="py-5">
-    <div class="container-fluid px-4">
-        <h2 class="text-white text-start mb-4 poller-one">Gallery</h2>
+<section id="gallery" class="pb-5">
+    <div class="container-fluid px-4 py-4">
+        <h2 class="text-start mb-4 poller-one">Gallery</h2>
 
         ${rows.map((row, index) => `
             <div class="row g-4 align-items-stretch mb-4 px-4">
