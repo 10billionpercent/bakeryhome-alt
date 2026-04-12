@@ -2,9 +2,9 @@ class AboutSection extends HTMLElement {
     connectedCallback() {
     this.innerHTML = `
     <section id="about" class="py-5">
-        <div class="container-fluid px-4"> 
-        <div class="row g-4 g-md-5 align-items-stretch px-2">
-            <h2 class="text-start mb-4 poller-one"> About Us </h2>
+        <div class="container-fluid px-lg-4 px-2"> 
+        <div class="row g-4 g-md-5 align-items-stretch px-lg-2">
+            <h2 class="text-start mb-4 poller-one ms-4"> About Us </h2>
             <div class="row g-0 px-4">
             <div class="col-xl-6 d-flex flex-column">
             <h4 class="text-start">

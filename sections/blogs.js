@@ -47,8 +47,8 @@ class BlogSection extends HTMLElement {
         blogDate="30 March 2026"
         src="static/images/Olandshvedebrod_6082070226.jpg">
     </blog-card>
+    <a class="mb-3 mt-0" href="https://static-wagtail-v4-2.netlify.app/blog/"> View more of our blogs </a>
 </div>
-<a class="m-0" href="https://static-wagtail-v4-2.netlify.app/blog/"> View more of our blogs </a>
 </div>
 </section>
 `

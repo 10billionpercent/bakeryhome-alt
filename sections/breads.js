@@ -9,7 +9,7 @@ class BreadSection extends HTMLElement {
                 </h2>
             </div>
         </div>
-        <div class="row g-4 g-md-5 align-items-center px-5">
+        <div class="row g-4 g-md-5 align-items-center px-3 px-md-5 mt-1">
         <div class="col-lg-6">
         <my-image 
                 src="static/images/mixed_variety_of_traditional_european_sourdough_and_rye_round_bread_loaves.jpg" 
@@ -27,7 +27,7 @@ class BreadSection extends HTMLElement {
         </p>
         </div>
         </div>
-       <div class="row g-4 g-md-5 align-items-center px-2 mt-2 ms-4">
+       <div class="row g-4 g-md-5 align-items-center px-2 mt-2">
     <h3 class="text-start poller-one ms-2">
         Some of our breads
     </h3>

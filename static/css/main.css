@@ -242,6 +242,10 @@ gallery-card {
     background-color: var(--bread-brown);
 }
 
+#blogs a, #gallery a {
+    color: var(--bread-white);
+}
+
 blog-card {
     color: var(--bread-dough);
 }

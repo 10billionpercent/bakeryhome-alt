@@ -50,12 +50,12 @@ this.innerHTML = `
         `).join('')}
 
     </div>
-
-    <a class="ms-4" 
-       href="https://static-wagtail-v4-2.netlify.app/gallery/" 
-       rel="noopener noreferrer">
-       View more of our gallery
-    </a>
+    <div class="text-center mt-4">
+        <a href="https://static-wagtail-v4-2.netlify.app/gallery/" 
+           rel="noopener noreferrer">
+           View more of our gallery
+        </a>
+    </div>
 
 </section>
 `

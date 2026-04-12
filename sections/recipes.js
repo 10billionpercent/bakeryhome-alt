@@ -2,7 +2,7 @@ class RecipeSection extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 <section id="recipes" class="text-center px-4 mt-4 w-100">
-    <div class="row g-4 g-md-5 align-items-center px-2">
+    <div class="row g-4 g-md-5 align-items-center px-2 pb-lg-3">
     <h2 class="text-start poller-one mb-2">
         Recipes
     </h2>
