@@ -19,16 +19,18 @@ class BlogCard extends HTMLElement {
 
         const backgroundColor = newest ? "var(--bread-dark)" : "var(--bread-brown)"
 
+        const padding = newest ? "1.25rem" : "0"
+
         this.innerHTML = `
     <div class="mb-3 px-0"> <div class="d-flex ${layoutDirection} align-items-stretch gap-2 gap-lg-3" 
-             style="background-color: ${backgroundColor}; border-radius: 0.5rem; padding: 1.25rem; overflow: hidden;">
+             style="background-color: ${backgroundColor}; border-radius: 0.5rem; padding: ${padding}; overflow: hidden;">
             
             <div class="row g-0 w-100">
                 <div class="${imgCol} d-flex align-items-center justify-content-center">
                     <my-image src="${src}" alt="${alt}" variant="${imageVariant}"></my-image>
                 </div>
                 <div class="${textCol} d-flex flex-column justify-content-center mt-3 mt-lg-0 ps-lg-4">
-                    <h5 class="text-start ${headingSize} mb-1">${blogTitle}</h5>
+                    <h5 class="text-start ${headingSize} mb-1 mt-lg-2">${blogTitle}</h5>
                     <p class="text-start small mt-2 mb-0"><i class="bi bi-calendar-fill"></i>&emsp;${blogDate}</p>
                     <p class="text-start m-0 small mt-1"><i class="bi bi-feather"></i>&emsp;${blogAuthor}</p>
                     <p class="text-start m-0 lh-sm small mt-2">${blogDesc}</p>

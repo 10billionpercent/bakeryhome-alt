@@ -20,7 +20,7 @@ class BlogSection extends HTMLElement {
     <h4 class="text-white text-center">
        Older Blogs
     </h4>
-<div class="row align-items-start justify-content-center mb-5 ms-1 me-1">
+<div class="row align-items-start justify-content-center mb-5 ms-1 me-1 p-sm-0">
     <blog-card 
         class="col-lg-4 col-md-6" 
         blogTitle="The Greatest Thing Since Sliced Bread"
