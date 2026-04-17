@@ -23,7 +23,7 @@ class MyFooter extends HTMLElement {
                     </ul>
                     
                     <p class="small">
-                        View the source code <a href="https://github.com/10billionpercent/bakeryhome-alt" target="_blank">here</a>. Styling in progress.
+                        View the source code <a href="https://github.com/10billionpercent/bakeryhome-alt" target="_blank">here</a>. 
                     </p>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 body {
-    background-color: black;
     overflow-x: hidden;
     font-family: "SN Pro", sans-serif;
     width: 100%;
@@ -137,13 +136,53 @@ gallery-card {
 }
 
 .hero-image-container {
-    max-width: 100%; 
+    display: block;
+    width: 100%;
 }
 
-.hero-image-container img {
+.hero-belt-viewport {
+    width: 100vw;
+    max-width: none;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.hero-belt-track {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    gap: clamp(2rem, 5vw, 5rem);
+    animation: hero-belt-slide 24s linear infinite;
+    will-change: transform;
+}
+
+.hero-belt-group {
+    display: flex;
+    gap: clamp(2rem, 5vw, 5rem);
+    flex: 0 0 auto;
+    align-items: center;
+}
+
+.hero-belt-image,
+.hero-belt-image-clone {
     display: block;
-    height: auto;
-    max-width: 100%; 
+    width: clamp(260px, 22vw, 420px);
+    height: clamp(240px, 24vw, 360px);
+    object-fit: cover;
+    object-position: center;
+    flex: 0 0 auto;
+}
+
+@keyframes hero-belt-slide {
+    from {
+        transform: translateX(-50%);
+        }
+
+    to {
+        transform: translateX(0);
+        }
 }
 
 .hero-overlay-title {
